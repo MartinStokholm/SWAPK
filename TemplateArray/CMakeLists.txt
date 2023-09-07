@@ -3,4 +3,6 @@ project(TemplateArray)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(TemplateArray main.cpp)
+add_executable(TemplateArray main.cpp
+        bossarray.h
+)

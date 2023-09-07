@@ -1,0 +1,8 @@
+//
+// Created by msldk on 07/09/2023.
+//
+
+#ifndef TEMPLATEARRAY_BOSSARRAY_H
+#define TEMPLATEARRAY_BOSSARRAY_H
+
+#endif //TEMPLATEARRAY_BOSSARRAY_H
