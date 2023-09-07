@@ -1,0 +1,24 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+string hello()
+{
+    return "\nHello World!";
+}
+
+int main()
+{
+    
+    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+
+    for (const string& word : msg)
+    {
+        cout << word << " ";
+    }
+
+    cout << hello() << endl;
+    cout << endl;
+}
