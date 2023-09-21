@@ -97,10 +97,10 @@ void printAll(const ProductList& pl)
     std::cout << "##################################################" << std::endl;
     std::cout << "Printing out all products..." << std::endl;
     std::cout << "----------------------------" << std::endl;
-    for(ProductList::const_iterator iter = pl.begin(); iter != pl.end(); ++iter)
-    {
-        std::cout << *iter << std::endl;
-    }
+
+    std::ostream_iterator<Product> outputIter(std::cout, "\n");
+    copy(pl.begin(),pl.end(),outputIter);
+
     std::cout << "##################################################" << std::endl;
 }
 
@@ -111,6 +111,7 @@ void printAll(const ProductList& pl)
 */
 void addItem(ProductList& pl)
 {
+    
 }
 
 
